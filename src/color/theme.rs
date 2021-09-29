@@ -9,7 +9,7 @@ use std::fs;
 use std::path::Path;
 
 /// A struct holding the theme configuration
-/// Color table: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.avg
+/// Color table: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 #[derive(Debug, Deserialize, PartialEq)]
 #[serde(rename_all = "kebab-case")]
 #[serde(deny_unknown_fields)]
